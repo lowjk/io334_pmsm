@@ -53,6 +53,9 @@ Thumbs.db
 # Simulink Code Generation
 slprj/
 
+# HDL Code Generation
+hdl_prj/
+
 # Session info
 octave-workspace
 
