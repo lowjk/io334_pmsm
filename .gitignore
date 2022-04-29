@@ -65,4 +65,5 @@ octave-workspace
 # Simulink cache files
 *.slxc
 
+gm_current_fpga_slrt_slrealtime_rtw/
 *.mldatx
