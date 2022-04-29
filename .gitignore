@@ -65,4 +65,4 @@ octave-workspace
 # Simulink cache files
 *.slxc
 
-*.mcs
+*.mldatx
