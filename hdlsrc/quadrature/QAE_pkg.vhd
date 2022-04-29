@@ -1,0 +1,1 @@
+library IEEE; use IEEE.STD_LOGIC_1164.ALL; package QAE_pkg is constant s731A256AA7EC109FE962BF102445534C5772925D : std_logic_vector(9 DOWNTO 0) := "00" & x"0C";  constant s7EC4167F3F7F1E99D074313BF18FF4BA05E7ED10 : std_logic_vector(9 DOWNTO 0) := "00" & x"02"; constant s5907A17D8E29C7EB61D4F347241BFE4DAC407AEA : std_logic_vector(9 DOWNTO 0) := "00" & x"06"; end package QAE_pkg;
