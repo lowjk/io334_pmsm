@@ -1,2 +1,0 @@
-library IEEE; use IEEE.std_logic_1164.all; use IEEE.numeric_std.all; package PWM_pkg is constant s731A256AA7EC109FE962BF102445534C5772925D : std_logic_vector(9 DOWNTO 0) := "00" & x"06";  constant s7EC4167F3F7F1E99D074313BF18FF4BA05E7ED10 : std_logic_vector
-(9 DOWNTO 0) := "00" & x"05";  constant s5907A17D8E29C7EB61D4F347241BFE4DAC407AEA : std_logic_vector(9 DOWNTO 0) := "00" & x"07";  end package PWM_pkg;
