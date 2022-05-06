@@ -66,4 +66,5 @@ octave-workspace
 *.slxc
 
 gm_current_fpga_slrt_slrealtime_rtw/
+test/
 *.mldatx
