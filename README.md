@@ -6,7 +6,7 @@ This repository contains the test and main models for the simulation of PMSM mot
 How to run
 ----------
 
-For both hardware-in-the-loop (HIL) and software simulation, run the corresponding Simulink Real-Time (SLRT) model located the the folder _pmsm_fpga_. For the HIL version, the pin and analog output mapping are listed below:
+For both hardware-in-the-loop (HIL) and software simulation, run the corresponding Simulink Real-Time (SLRT) model located the the folder _pmsm_fpga_. For the HIL version, an external MCU controller is required to drive the PMSM. The pin and analog output mappings are listed below:
 
 > **IO3XX-21 rear plugin**
 > 
