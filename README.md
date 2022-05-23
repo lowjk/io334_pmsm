@@ -12,15 +12,15 @@ For both hardware-in-the-loop (HIL) and software simulation, run the correspondi
 > 
 > Inports:
 > 
-> - Pin 0 - _TTL_CAP_A_
-> - Pin 1 - _TTL_CAP_B_
-> - Pin 2 - _TTL_CAP_C_
+> - Pin 1 - _TTL_CAP_A_
+> - Pin 2 - _TTL_CAP_B_
+> - Pin 3 - _TTL_CAP_C_
 > 
 > Outports:
 >
-> - Pin 8 - _TTL_QAE_A_
-> - Pin 9 - _TTL_QAE_B_
-> - Pin 10 - _TTL_QAE_C_
+> - Pin 10 - _TTL_QAE_A_
+> - Pin 11 - _TTL_QAE_B_
+> - Pin 12 - _TTL_QAE_C_
 
 > **IO334 I/O box**
 > - AO Channel 1 - _DAC_ia_
