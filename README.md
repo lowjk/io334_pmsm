@@ -12,20 +12,28 @@ For both hardware-in-the-loop (HIL) and software simulation, run the correspondi
 > 
 > Inports:
 > 
-> - Pin 0 - _TTL_CAP_A_
-> - Pin 1 - _TTL_CAP_B_
-> - Pin 2 - _TTL_CAP_C_
+> - Pin 1 - _TTL_CAP_A_
+> - Pin 2 - _TTL_CAP_B_
+> - Pin 3 - _TTL_CAP_C_
 > 
 > Outports:
 >
-> - Pin 8 - _TTL_QAE_A_
-> - Pin 9 - _TTL_QAE_B_
-> - Pin 10 - _TTL_QAE_C_
+> - Pin 10 - _TTL_QAE_A_
+> - Pin 11 - _TTL_QAE_B_
+> - Pin 12 - _TTL_QAE_C_
 
 > **IO334 I/O box**
 > - AO Channel 1 - _DAC_ia_
 > - AO Channel 2 - _DAC_ib_
 > - AO Channel 3 - _DAC_ic_
+> 
+> RJ45 Pin Mapping:
+> 
+> - Pin 2 - _AO Channel 1_
+> - Pin 6 - _AO Channel 2_
+> - Pin 5 - _AO Channel 3_
+> 
+> Use RJ45 pins 1, 3, 4, or 7 for ground.
 
 Reading current
 ---------------
