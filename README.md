@@ -6,7 +6,7 @@ This repository contains the test and main models for the simulation of PMSM mot
 How to run
 ----------
 
-For both hardware-in-the-loop (HIL) and software simulation, run the corresponding Simulink Real-Time (SLRT) model located the the folder _pmsm_fpga_. For the HIL version, an external MCU controller is required to drive the PMSM. The pin and analog output mappings are listed below:
+For both hardware-in-the-loop (HIL) and software simulation, run the corresponding Simulink Real-Time (SLRT) model located the the folder _pmsm_fpga_. For the HIL version, an embedded controller is required to drive the PMSM. The pin and analog output mappings are listed below:
 
 > **IO3XX-21 rear plugin**
 > 
@@ -40,4 +40,4 @@ Reading current
 
 The current values within the Simulink model has a 1:1 ratio with amperage. Due to the FPGA analog output channel being 16-bit, the current values have been upscaled by a factor of 8 to preserve precision during their conversion from a _double_ to _int16_ data type. Additionally, the analog output has a voltage range of ±10 V. Therefore, the current values have been scaled proportionally to project a voltage range of 0–3.3 V in order to accommodate the operating voltage range of a typical microcontroller.
 
-In order to get the correct current readings of the motor from the analog output, the voltage values have to be scaled and shifted from 0–3.3 V to -32768–32767, followed by a divison of 8.
+In order to get the correct current readings of the motor from the analog output, the voltage values have to be mapped from 0–3.3 V to -32768–32767, followed by a divison of 8.
