@@ -26,6 +26,14 @@ For both hardware-in-the-loop (HIL) and software simulation, run the correspondi
 > - AO Channel 1 - _DAC_ia_
 > - AO Channel 2 - _DAC_ib_
 > - AO Channel 3 - _DAC_ic_
+> 
+> RJ45 Pin Mapping:
+> 
+> - Pin 2 - _AO Channel 1_
+> - Pin 6 - _AO Channel 2_
+> - Pin 5 - _AO Channel 3_
+> 
+> Use RJ45 pins 1, 3, 4, or 7 for ground.
 
 Reading current
 ---------------
